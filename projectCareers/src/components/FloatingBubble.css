@@ -1,0 +1,12 @@
+.floating-bubble {
+  position: absolute;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.floating-bubble-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease;
+}
